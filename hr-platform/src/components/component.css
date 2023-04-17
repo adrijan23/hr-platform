@@ -1,0 +1,91 @@
+.table-container {
+    margin: 30px auto;
+    max-width: 70%;
+    background-color: #f0f3f6;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  .table-skills{
+    max-width: 700px;
+  }
+
+  table{
+    width: 100%;
+    text-align: center;
+  }
+
+  .table-container button, .save-btn, .add-btn, .submit-btn, .search-btn-container button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  button{
+    padding: 3.5px;
+  }
+  button:hover{
+    cursor: pointer;
+    
+  }
+
+  .add-btn, .save-btn, .submit-btn{
+    background-color: #282c34;
+    margin-top: 10px;
+    
+  }
+  .add{
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .add-skills-btn{
+    background-color: #3b5b91;
+  }
+
+  .delete-btn{
+    background-color: red;
+  }
+  .delete-btn:hover{
+    background-color: rgb(199, 48, 48);
+  }
+  .add-btn:hover, .save-btn:hover, .edit-btn:hover, .submit-btn:hover{
+    background-color: #525a6a;
+  }
+  .add-skills-btn:hover{
+    background-color: #33486c;
+  }
+
+  .edit-btn{
+    background-color: rgb(74, 188, 74);
+  }
+  .edit-btn:hover{
+    background-color: rgb(59, 172, 59);
+  }
+  .cancel{
+    margin-left: 10px;
+  }
+  .form{
+    text-align: center;
+  }
+ 
+  .form-group{
+    margin-bottom: 10px;
+  }
+
+  .search-btn-container{
+    margin: 30px auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .search-btn-container button{
+    padding: 10px;
+    background-color: #4a1ac2;
+  }
+  .search-btn-container button:hover{
+    padding: 10px;
+    background-color: #2b0097;
+  }
+ 
+  
